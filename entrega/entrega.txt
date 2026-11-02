@@ -39,13 +39,13 @@ Credenciales / Instrucciones de prueba:
 
 --- RELEASE 1.0.1 (Build 2) ---
 Versión: 1.0.1+2
-Fecha: 01 de noviembre de 2026
+Fecha: 02 de noviembre de 2026
 Responsable: Johan Eliu Salgado Castro
 Cambios introducidos:
 - Actualización incremental para verificación del flujo de update en testers.
 - Actualización del indicador visual de versión a "Versión 1.0.1".
 - Mejora en la interfaz visual: nuevo esquema de color secundario (estilo Teal/Verde).
-- Incorporación de botón para decrementar el contador y estadísticas de toques.
+- Incorporación de botón para decrementar el contador y chip de actualización aplicada.
 - Verificación de persistencia y reemplazo correcto del paquete anterior.
 Credenciales / Instrucciones de prueba:
 - Actualizar desde la app App Distribution o notificación de tester recibida.
