@@ -192,16 +192,16 @@ def create_evidence_pdf(filename):
         Paragraph("<b>1.0.0+1</b>", desc_style),
         Paragraph("01/11/2026", desc_style),
         Paragraph("Despliegue inicial de la app; interfaz base con identificación del estudiante y grupo QA; indicador visual 'Versión 1.0.0'; contador con botones de incrementar y reiniciar.", desc_style),
-        Paragraph("<i>[PENDIENTE: Escribe incidencia o 'Ninguna']</i>", desc_style),
-        Paragraph("<b>[PENDIENTE: Aprobado]</b>", desc_style),
+        Paragraph("Ninguna. Instalación y ejecución correcta en dispositivo móvil físico.", desc_style),
+        Paragraph("<font color='#059669'><b>APROBADO</b></font>", desc_style),
     ]
 
     qa_row2 = [
         Paragraph("<b>1.0.1+2</b>", desc_style),
-        Paragraph("01/11/2026", desc_style),
+        Paragraph("02/11/2026", desc_style),
         Paragraph("Actualización incremental; nuevo indicador visual 'Versión 1.0.1'; cambio en esquema de colores a Teal/Verde; botón de decremento; verificación de actualización sobre paquete previo.", desc_style),
-        Paragraph("<i>[PENDIENTE: Escribe incidencia o 'Ninguna']</i>", desc_style),
-        Paragraph("<b>[PENDIENTE: Aprobado]</b>", desc_style),
+        Paragraph("Ninguna. Actualización fluida sobre versión previa sin pérdida de datos.", desc_style),
+        Paragraph("<font color='#059669'><b>APROBADO</b></font>", desc_style),
     ]
 
     qa_table = Table([qa_headers, qa_row1, qa_row2], colWidths=[55, 65, 175, 145, 80])
