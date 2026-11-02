@@ -53,13 +53,13 @@ class _PaginaPrincipalState extends State<PaginaPrincipal> {
         centerTitle: true,
       ),
       body: Center(
-        child: Padding(
+        child: SingleChildScrollView(
           padding: const EdgeInsets.all(24.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Card(
-                elevation: 4,
+                elevation: 3,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -68,7 +68,7 @@ class _PaginaPrincipalState extends State<PaginaPrincipal> {
                   child: Column(
                     children: [
                       Text(
-                        'Programación Móvil',
+                        'Programación Móvil - UCEVA',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
@@ -79,16 +79,21 @@ class _PaginaPrincipalState extends State<PaginaPrincipal> {
                         'Estudiante: Johan Eliu Salgado Castro',
                         style: TextStyle(fontSize: 15),
                       ),
+                      SizedBox(height: 6),
+                      Text(
+                        'Grupo QA: QA_Clase',
+                        style: TextStyle(fontSize: 14, color: Colors.black54),
+                      ),
                     ],
                   ),
                 ),
               ),
               const SizedBox(height: 30),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                 decoration: BoxDecoration(
-                  color: Colors.blue.shade100,
-                  borderRadius: BorderRadius.circular(20),
+                  color: Colors.blue.shade50,
+                  borderRadius: BorderRadius.circular(24),
                   border: Border.all(color: Colors.blue, width: 2),
                 ),
                 child: const Text(
@@ -102,18 +107,19 @@ class _PaginaPrincipalState extends State<PaginaPrincipal> {
               ),
               const SizedBox(height: 30),
               const Text(
-                'Contador de pruebas:',
+                'Contador de pruebas de distribución:',
                 style: TextStyle(fontSize: 16),
               ),
               const SizedBox(height: 8),
               Text(
                 '$contador',
                 style: const TextStyle(
-                  fontSize: 40,
+                  fontSize: 48,
                   fontWeight: FontWeight.bold,
+                  color: Colors.blue,
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 24),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
