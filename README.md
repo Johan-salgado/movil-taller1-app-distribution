@@ -7,13 +7,13 @@
 
 ---
 
-## 📱 Descripción del Proyecto
+## Descripción del Proyecto
 
 Aplicación móvil desarrollada en Flutter diseñada para demostrar el flujo de distribución continua de versiones mediante **Firebase App Distribution**. Permite la distribución controlada a grupos de pruebas (QA) y la verificación del proceso de actualización en dispositivos Android reales.
 
 ---
 
-## 🔄 Flujo de Trabajo
+## Flujo de Trabajo
 
 El flujo implementado sigue el ciclo estándar de distribución móvil:
 
@@ -29,7 +29,7 @@ Generar APK (Release) ➔ Subir a Firebase App Distribution ➔ Notificar a Test
 
 ---
 
-## 🚀 Publicación (Paso a Paso para Replicar)
+## Publicación (Paso a Paso para Replicar)
 
 ### 1. Compilación Release
 ```bash
@@ -55,7 +55,7 @@ El archivo generado se ubicará en:
 
 ---
 
-## 🏷️ Notas sobre Versionado
+## Notas sobre Versionado
 
 El versionado se maneja en el archivo `pubspec.yaml` siguiendo la convención de Flutter `version: <versionName>+<versionCode>`:
 
@@ -77,7 +77,7 @@ Cambios:
 
 ---
 
-## 📸 Capturas y Evidencias
+## Capturas y Evidencias
 
 *(Espacio reservado para enlaces de capturas y GIFs del panel de Firebase App Distribution y funcionamiento en el dispositivo)*
 
