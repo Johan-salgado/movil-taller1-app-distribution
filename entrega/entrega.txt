@@ -1,0 +1,52 @@
+================================================================================
+TALLER 1: DISTRIBUCIÓN DE APK CON FIREBASE APP DISTRIBUTION
+UNIDAD CENTRAL DEL VALLE DEL CAUCA - UCEVA
+PROGRAMACIÓN MÓVIL
+================================================================================
+
+DATOS DEL ESTUDIANTE:
+---------------------
+- Nombre: Johan Eliu Salgado Castro
+- Repositorio GitHub: https://github.com/Johan-salgado/movil-taller1-app-distribution.git
+- Application ID: com.johansalgado.taller_app_distribution
+- Grupo de Testers en Firebase: QA_Clase
+- Tester asignado: dduran@uceva.edu.co
+- Fecha límite de entrega: Lunes 2 de noviembre de 2026, 23:59
+
+ENLACE DE INSTALACIÓN (FIREBASE APP DISTRIBUTION):
+--------------------------------------------------
+[PENDIENTE: Pega aquí el enlace de instalación generado por Firebase App Distribution]
+URL: 
+
+
+================================================================================
+RELEASE NOTES
+================================================================================
+
+--- RELEASE 1.0.0 (Build 1) ---
+Versión: 1.0.0+1
+Fecha: 01 de noviembre de 2026
+Responsable: Johan Eliu Salgado Castro
+Cambios introducidos:
+- Versión inicial de la aplicación móvil para pruebas de distribución.
+- Interfaz gráfica base con identificación del estudiante y grupo de QA.
+- Indicador visual centralizado de la versión desplegada (Versión 1.0.0).
+- Contador interactivo de pruebas con botones de incremento y reinicio.
+- Configuración de compilación release para Firebase App Distribution.
+Credenciales / Instrucciones de prueba:
+- No requiere autenticación. Acceso directo a las pruebas del contador.
+
+
+--- RELEASE 1.0.1 (Build 2) ---
+Versión: 1.0.1+2
+Fecha: 01 de noviembre de 2026
+Responsable: Johan Eliu Salgado Castro
+Cambios introducidos:
+- Actualización incremental para verificación del flujo de update en testers.
+- Actualización del indicador visual de versión a "Versión 1.0.1".
+- Mejora en la interfaz visual: nuevo esquema de color secundario (estilo Teal/Verde).
+- Incorporación de botón para decrementar el contador y estadísticas de toques.
+- Verificación de persistencia y reemplazo correcto del paquete anterior.
+Credenciales / Instrucciones de prueba:
+- Actualizar desde la app App Distribution o notificación de tester recibida.
+================================================================================
